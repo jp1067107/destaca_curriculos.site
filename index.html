@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaca Currículos - Premium & Estratégico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        .bg-navy { background-color: #001A3D; }
+        .text-gold { color: #C5A059; }
+        .bg-gold { background-color: #C5A059; }
+        .border-gold { border-color: #C5A059; }
+        .hover-gold:hover { background-color: #B48F48; }
+        .gradient-gold { background: linear-gradient(135deg, #C5A059 0%, #E8D099 50%, #C5A059 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800 antialiased">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-100 py-4 sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <img src="assets/logo/logo.png" alt="Destaca Currículos" class="h-12 md:h-16">
+            <a href="#checkout" class="bg-navy text-white px-6 py-2.5 rounded-full font-bold text-sm uppercase tracking-wider hover:bg-slate-800 transition duration-300">
+                Quero meu currículo
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-navy py-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute transform rotate-45 -right-20 -top-20 w-96 h-96 border-[40px] border-gold"></div>
+        </div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <span class="inline-block py-1 px-4 bg-gold/20 text-gold rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+                Entrega Super Rápida em até 24h
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                A Primeira Impressão <span class="text-gold">Importa</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Transformamos sua trajetória profissional em um currículo estratégico de alto impacto, desenhado para conquistar recrutadores e vencer sistemas de seleção.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#checkout" class="gradient-gold text-navy px-10 py-4 rounded-lg font-extrabold text-lg shadow-xl hover:scale-105 transition transform duration-300 flex items-center justify-center">
+                    CRIAR MEU CURRÍCULO AGORA
+                    <i data-lucide="chevron-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+            <div class="mt-8 flex items-center justify-center gap-6 text-slate-400 text-sm">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="check-circle-2" class="w-4 h-4 text-gold"></i>
+                    Qualidade Premium
+                </div>
+                <div class="flex items-center gap-2">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-gold"></i>
+                    100% Seguro
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy mb-4">Por que escolher o Destaca?</h2>
+                <div class="w-20 h-1 bg-gold mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Benefit 1 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-navy text-gold rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:rotate-6 transition duration-300">
+                        <i data-lucide="layout" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Estrutura Moderna</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Layouts limpos, organizados e visualmente atraentes que facilitam a leitura e destacam suas habilidades.
+                    </p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-navy text-gold rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:rotate-6 transition duration-300">
+                        <i data-lucide="zap" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Entrega Expressa</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Sabemos que a sua oportunidade não espera. Receba seu novo currículo revisado e pronto em tempo recorde.
+                    </p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-navy text-gold rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:rotate-6 transition duration-300">
+                        <i data-lucide="award" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mais Credibilidade</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Seu perfil apresentado de forma profissional, transmitindo confiança imediata a qualquer recrutador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Highlight -->
+    <section class="py-16 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="bg-navy rounded-3xl p-8 md:p-16 relative overflow-hidden flex flex-col md:flex-row items-center justify-between border-4 border-gold shadow-2xl">
+                <div class="relative z-10 mb-8 md:mb-0 md:max-w-xl text-center md:text-left">
+                    <h2 class="text-3xl md:text-5xl font-black text-white mb-4 italic uppercase tracking-tighter">
+                        OFERTA IRRESISTÍVEL
+                    </h2>
+                    <p class="text-2xl text-gold font-bold mb-4">
+                        4 Modelos Profissionais pelo preço de 1!
+                    </p>
+                    <p class="text-slate-300 text-lg mb-8">
+                        Não se limite. Receba 4 variações estratégicas do seu currículo para se adaptar perfeitamente a cada vaga que desejar.
+                    </p>
+                    <div class="flex items-center gap-4 justify-center md:justify-start">
+                        <div class="flex flex-col">
+                            <span class="text-slate-400 line-through text-sm">De R$ 97,00</span>
+                            <span class="text-white text-4xl font-black">Por apenas R$ 47,00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative z-10 flex flex-col items-center">
+                    <div class="bg-gold text-navy w-32 h-32 rounded-full flex flex-col items-center justify-center font-black text-center shadow-lg border-4 border-white mb-6 animate-pulse">
+                        <span class="text-xs uppercase">Apenas</span>
+                        <span class="text-3xl">R$ 47</span>
+                        <span class="text-[10px] uppercase">À vista</span>
+                    </div>
+                    <a href="#checkout" class="bg-white text-navy px-8 py-4 rounded-xl font-bold text-lg hover:bg-gold hover:text-white transition duration-300">
+                        GARANTIR MINHA VAGA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-gold font-bold uppercase tracking-widest text-sm">Nossos Design</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-navy mt-2">Modelos Premium que Convertem</h2>
+                <p class="text-slate-500 mt-4">Conheça algumas das estruturas que preparamos para você.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+                <!-- Modelo 1 -->
+                <div class="group relative overflow-hidden rounded-xl border border-gray-200 shadow-sm hover:shadow-xl transition duration-500">
+                    <img src="assets/img/Com foto (1).png" alt="Modelo de Currículo" class="w-full h-auto transform group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-navy/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold border-2 border-gold px-4 py-2">VER DETALHES</span>
+                    </div>
+                </div>
+                <!-- Modelo 2 -->
+                <div class="group relative overflow-hidden rounded-xl border border-gray-200 shadow-sm hover:shadow-xl transition duration-500">
+                    <img src="assets/img/Com foto (2).png" alt="Modelo de Currículo" class="w-full h-auto transform group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-navy/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold border-2 border-gold px-4 py-2">VER DETALHES</span>
+                    </div>
+                </div>
+                <!-- Modelo 3 -->
+                <div class="group relative overflow-hidden rounded-xl border border-gray-200 shadow-sm hover:shadow-xl transition duration-500">
+                    <img src="assets/img/Sem foto (1).png" alt="Modelo de Currículo" class="w-full h-auto transform group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-navy/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold border-2 border-gold px-4 py-2">VER DETALHES</span>
+                    </div>
+                </div>
+                <!-- Modelo 4 -->
+                <div class="group relative overflow-hidden rounded-xl border border-gray-200 shadow-sm hover:shadow-xl transition duration-500">
+                    <img src="assets/img/Sem foto (2).png" alt="Modelo de Currículo" class="w-full h-auto transform group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-navy/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold border-2 border-gold px-4 py-2">VER DETALHES</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="text-slate-500 italic mb-6">E muito mais... Modelos com e sem foto, adaptados para todas as áreas profissionais.</p>
+                <a href="#checkout" class="text-navy font-bold flex items-center justify-center gap-2 hover:text-gold transition duration-300">
+                    Quero ver todos os modelos disponiveis <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+                <img src="assets/logo/logo.png" alt="Destaca Currículos" class="h-12 mb-8 md:mb-0">
+                <div class="flex gap-8 items-center">
+                    <div class="flex flex-col items-center">
+                        <i data-lucide="shield-check" class="w-6 h-6 text-gold mb-1"></i>
+                        <span class="text-[10px] font-bold uppercase text-slate-400">Compra 100% Segura</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <i data-lucide="lock" class="w-6 h-6 text-gold mb-1"></i>
+                        <span class="text-[10px] font-bold uppercase text-slate-400">Sigilo Absoluto</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <i data-lucide="headphones" class="w-6 h-6 text-gold mb-1"></i>
+                        <span class="text-[10px] font-bold uppercase text-slate-400">Suporte VIP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-100 pt-8 text-center text-slate-400 text-sm">
+                <p>&copy; 2026 Destaca Currículos - Todos os direitos reservados.</p>
+                <p class="mt-2 text-[10px]">Desenvolvido com excelência estratégica para sua carreira.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Inicializa os ícones Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
